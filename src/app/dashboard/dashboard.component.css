@@ -1,0 +1,17 @@
+.mat-header{
+    background-color: brown;
+    margin-top: 20px;
+}
+
+.mat-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+@media(max-width:600px){
+    .mat-div{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

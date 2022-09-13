@@ -1,0 +1,13 @@
+<mat-card class="mat-header">
+  <mat-card-header>
+     
+        <marquee behavior="scroll" direction="left">Breaking News!!</marquee>
+      
+  </mat-card-header>
+</mat-card>
+
+<div class="mat-div">
+<div *ngFor="let v of newsList;let i = index;">    
+<app-card [newsItem] = "v"></app-card>
+</div>
+</div>
